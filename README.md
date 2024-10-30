@@ -1,2 +1,3 @@
 # resume
-This is the reusme resume basic project taken from roadmap.sh
+This is the resume basic project taken from roadmap.sh 
+Link: https://husain-alt.github.io/resume/
