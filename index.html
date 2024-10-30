@@ -1,0 +1,129 @@
+<!-- Key requirements for this project:
+
+Semantic HTML: Use appropriate HTML tags to structure your CV.
+Open Graph (OG) Tags: Add OG tags for better social media sharing.
+The structure of your CV should be easily understandable and ready for styling in a future project.
+
+Submission Checklist:
+Semantically correct HTML structure.
+
+Single-page layout with sections for education, skills, and career history.
+
+
+
+By completing this project, you’ll gain a solid understanding of how to create a single-page CV using HTML, apply basic SEO principles, and prepare your webpage for future styling. This foundation will enable you to move on to styling the CV using CSS in subsequent projects.
+ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="seo, keywords">
+    <meta name="desription" content="file descrition which will be shown when displaying in search engine ">
+    <link rel="shortcut icon" href="image/www.png" type="image/x-icon">
+    <!-- Og tags, used to display about the site when shared on Social media -->
+    <meta property=”og:type” content=”website” />
+    <meta property="og:image" content="image/cv-og.webp">
+    <meta property="og:title" content="My Cv">
+    <meta property="og:descrition" content="This is cv for my first html project">
+    <meta property="og:image" width=200px>
+    <meta property="og:image" height=100px>
+    <title>Single Page CV</title>
+    <style>
+        * {
+            font-family: sans-serif;
+        }
+
+        h1 {
+            font-size: 30px;
+        }
+
+        .main-page {
+            border: 2px solid;
+            padding: 50px;
+            width: 40%;
+            margin: auto;
+        }
+
+        /* hr {
+            width: 60%;
+            border-top: 2px solid;
+            text-align: left;
+        } */
+
+        .title-s {
+            color: green;
+            font-size: 15px;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+
+        .sec {
+            margin-bottom: 25px;
+        }
+
+        .content {
+            margin-top: 5px;
+        }
+
+        .sub-title {
+            color: #1971C2;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="main-page">
+        <hr style="width:70%; margin-left:0; border-top:2px solid;">
+        <section class="intro sec">
+            <h1>John</h1>
+            <p class="title-s">Aspiring Front-End Developer</p>
+            <address style="width: 160px;"> 123, Nwa Nagar
+                main bulos pal, ST
+                132(4567-2340-89)
+                hsn02@gmail.com
+            </address>
+        </section>
+
+        <section class="skills sec">
+            <p class="title-s">Skills</p>
+            <p class="content">Html, Css, Js, Figma, React, MERN</p>
+        </section>
+
+        <section class="education sec">
+            <p class="title-s">Education</p>
+            <p style="margin: 0;" class="sub-title">School Name, Location - Degree</p>
+            <p class="content">ST.Thomas mit hr. sec. School, mahangar palika road</p>
+        </section>
+
+        <section class="experience sec">
+            <p class="title-s">Experience</p>
+            <p style="margin: 0;" class="sub-title">Company Name, Location - Job Title</p>
+            <p class="content">Year 2022 - Year 2025</p>
+            <ul>
+                <li>Li this is my achievement</li>
+                <li>Li this is my achievement</li>
+                <li>Li this is my achievement</li>
+            </ul>
+            <p>Skills this is the list of skills gained</p>
+
+            <p style="margin: 0;" class="sub-title">Company Name, Location - Job Title</p>
+            <p class="content">Year 2022 - Year 2025</p>
+            <ul>
+                <li>Li this is my achievement</li>
+                <li>Li this is my achievement</li>
+                <li>Li this is my achievement</li>
+            </ul>
+            <p>Skills this is the list of skills gained</p>
+        </section>
+
+        <section class="ati sec">
+            <p class="title-s">Accross The Internet</p>
+            <p class="content">These are my social media actives</p>
+        </section>
+    </section>
+</body>
+
+</html>
